@@ -1,0 +1,7 @@
+thinking,reference_model,comparator_model,matched_prompts,both_censored,reference_only_censored,comparator_only_censored,neither_censored,reference_censored,comparator_censored,relative_reduction_pct,ci95_lo_pct,ci95_hi_pct,bootstrap95_lo_pct,bootstrap95_hi_pct,mcnemar_exact_p,holm_adjusted_p
+off,Qwen/Qwen3.8-27B,NousResearch/Arete-27B,500,217,205,1,77,422,218,48.3412,43.3209,52.9169,43.5644,53.2067,4.025513007866426e-60,1.6102052031465704e-59
+off,Qwen/Qwen3.8-27B,hirundo-io/Qwen3.8-27B-Westernized,499,24,397,1,77,421,25,94.0618,91.3067,95.9437,91.7062,96.1446,1.2361313392199024e-117,
+off,NousResearch/Arete-27B,hirundo-io/Qwen3.8-27B-Westernized,499,14,204,11,270,218,25,88.5321,83.0742,92.23,83.9024,92.735,3.5165461287722094e-47,1.0549638386316628e-46
+on,Qwen/Qwen3.8-27B,NousResearch/Arete-27B,500,65,177,6,252,242,71,70.6612,64.0839,76.0339,64.6226,76.3948,8.105074935312312e-45,1.6210149870624623e-44
+on,Qwen/Qwen3.8-27B,hirundo-io/Qwen3.8-27B-Westernized,500,9,233,6,252,242,15,93.8017,89.7508,96.2515,90.4762,96.6942,5.6451795035758006e-61,
+on,NousResearch/Arete-27B,hirundo-io/Qwen3.8-27B-Westernized,500,5,66,10,419,71,15,78.8732,64.3369,87.4845,66.1538,88.5714,2.960046439225788e-11,2.960046439225788e-11
